@@ -55,21 +55,69 @@
         <!-- end of navbar  -->
 
         <!-- header -->
-        <header class = "flex">
+        <header class = "flex header-sm">
             <div class = "container">
                 <div class = "header-title">
-                    <h1>ReliefConnect</h1>
-                    <p>Lorem ipsum dolor sit amet //slogan</p>
-                </div>
-                <div class = "header-form">
-                    <button class="btn-1">sign up</button>
-                    <button class="btn-2">login</button>
+                    <h1>Become a Member</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rerum maxime enim odit illum in molestias beatae doloremque, ratione optio.</p>
                 </div>
             </div>
         </header>
-        <!-- content -->
-        <h1>about us</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+        <!-- header -->
+
+        <!-- contact section -->
+        <section id = "contact" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">To become a member, get in touch with us</span>
+                    <h2 class = "lg-title">contact us</h2>
+                </div>
+
+                <div class = "contact-row">
+                    <div class = "contact-left">
+                        <form class = "contact-form">
+                            <input type = "text" class = "form-control" placeholder="Your name">
+                            <input type = "email" class = "form-control" placeholder="Your email">
+                            <input type = "text" class = "form-control" placeholder="Any other contact information">
+                            <input type = "text" class = "form-control" placeholder="Organization Name">
+                            <textarea rows = "4" class = "form-control" placeholder="Your Organization's mission and how you can contribute to the cause" style = "resize: none;"></textarea>
+                            <button class="btn-2" id="submit-btn">Submit</button>
+                        </form>
+                    </div>
+                    <div class = "contact-right my-2">
+                        <div class = "contact-item">
+                            <span class = "contact-icon flex">
+                                <i class = "fa fa-phone-alt"></i>
+                            </span>
+                            <div>
+                                <span>Phone</span>
+                                <p class = "text">+91 8360224669</p>
+                            </div>
+                        </div>
+                        <div class = "contact-item">
+                            <span class = "contact-icon flex">
+                                <i class = "fa fa-map-marked-alt"></i>
+                            </span>
+                            <div>
+                                <span>Address</span>
+                                <p class = "text">Thapar Institute of Technology, Patiala</p>
+                            </div>
+                        </div>
+                        <div class = "contact-item">
+                            <span class = "contact-icon flex">
+                                <i class = "fa fa-envelope"></i>
+                            </span>
+                            <div>
+                                <span>Message</span>
+                                <p class = "text">ajindal4_be22@thapar.edu</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of contact section -->
+        
 
         <!-- footer -->
         <footer class = "py-4">
@@ -119,15 +167,7 @@
         <!-- js -->
         <script src = "js/script.js"></script>
         <script>
-            // play/pause video
-            let video = document.querySelector('.video-wrapper video');
-            document.getElementById('play-btn').addEventListener('click', () => {
-                if(video.paused){
-                    video.play();
-                } else {
-                    video.pause();
-                }
-            });
+            
         </script>
     </body>
 </html>
