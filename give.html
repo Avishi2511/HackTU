@@ -16,8 +16,20 @@
         <link rel = "stylesheet" href = "css/utility.css">
         <link rel = "stylesheet" href = "css/style.css">
         <link rel = "stylesheet" href = "css/responsive.css">
+        <link rel = "stylesheet" href = "css/table.css">
     </head>
     <body>
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Donate Resources</h1>
+                    <p></p>
+                </div>
+            </div>
+        </header>
+
         <!-- navbar  -->
         <nav class = "navbar">
             <div class = "container flex">
@@ -54,24 +66,47 @@
         </nav>
         <!-- end of navbar  -->
 
-        <!-- header -->
-        <header class = "flex">
-            <div class = "container">
-                <div class = "header-title">
-                    <h1>ReliefConnect</h1>
-                    <p>Unifying Aid, Empowering Communities: Disaster Relief Connect</p>
-                </div>
-                <div class = "header-form">
-                    <a href="ask.html"><button class="btn-1">Sign Up</button></a>
-                    <a href="give.html"><button class="btn-2">Login</button></a>
-                </div>
-            </div>
-        </header>
-        <!-- content -->
-        <div style="margin-top: 100px; margin-bottom: 100px; margin-right: 200px; margin-left: 200px"><center>
-        <h1>ABOUT US</h1>
-        <p>Welcome to Disaster Relief Connect, your centralized platform for NGO collaboration during disasters. We facilitate resource sharing, coordination, and support among NGOs, ensuring a more effective response to crises. Our website provides information on donating, volunteering, and connecting with NGOs, as well as links to public institutions offering assistance. Join us in making a difference when it matters most.</p>
-        </center></div>
+        <div class="container">
+            <h2>NGO'S with their links</h2>
+            <ul class="responsive-table">
+              <li class="table-header">
+                <div class="col col-1">Sr No.</div>
+                <div class="col col-2">NGO Name</div>
+                <div class="col col-4">Website Link</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Job Id">1</div>
+                <div class="col col-2" data-label="Customer Name">Rapid Response</div>
+                <!--<div class="col col-3" data-label="Amount">$350</div>-->
+                <div class="col col-4" data-label="Payment Status">https://www.rapidresponse.org.in/</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Job Id">2</div>
+                <div class="col col-2" data-label="Customer Name">Care India</div>
+                <!--<div class="col col-3" data-label="Amount">$220</div>-->
+                <div class="col col-4" data-label="Payment Status">https://www.careindia.org/</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Job Id">3</div>
+                <div class="col col-2" data-label="Customer Name">Sakal Relief Fund</div>
+                <!--<div class="col col-3" data-label="Amount">$341</div>-->
+                <div class="col col-4" data-label="Payment Status">https://sakalrelieffund.com/</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Job Id">4</div>
+                <div class="col col-2" data-label="Customer Name">Doctors For You</div>
+                <!--<div class="col col-3" data-label="Amount">$115</div>-->
+                <div class="col col-4" data-label="Payment Status">https://doctorsforyou.org/</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Job Id">5</div>
+                <div class="col col-2" data-label="Customer Name">Smile Foundation</div>
+                <!--<div class="col col-3" data-label="Amount">$115</div>-->
+                <div class="col col-4" data-label="Payment Status">https://www.smilefoundationindia.org/</div>
+              </li>
+            </ul>
+          </div>
+        
 
         <!-- footer -->
         <footer class = "py-4" style="padding-bottom: 0px;">
